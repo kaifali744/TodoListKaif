@@ -1,0 +1,91 @@
+/* Set the font family and backgrond color for the entire document */
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #9c9a9a;
+  }
+  
+  /* Create a container to hold all the elements and center them vertically and horizontally */
+  #container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Style the todo list area with background color, padding, border radius, width, and center the text */
+  #todo-list {
+    margin-top: 20px;
+    font-size: 18px;
+    background-color: #696969;
+    padding: 20px;
+    border-radius: 10px;
+    width: 50%;
+    text-align: center;
+    
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  
+  /* Set the margin for each todo item in the list */
+  li {
+    margin: 10px 0;
+  }
+  
+  /* Style for checked items in the list with a line-through text decoration and reduced opacity */
+  .checked {
+    text-decoration: line-through;
+    opacity: 0.5;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  /* Style for Heading of the page */
+  h1{
+    font-weight: 1000;
+    font-size: 50px;
+    text-decoration: underline;
+    color: rgb(55, 77, 77);
+  }
+  
+  /* Style the input text field with padding, font size, border, border radius, width, and margin bottom for spacing */
+  #input-text {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 70%;
+    margin-bottom: 10px;
+  }
+  
+  /* Style the add button with padding, font size, background color, text color, border, border radius, and cursor pointer on hover */
+  #add-btn {
+    padding: 10px 20px;
+    font-size: 19px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Change the background color of the add button on hover */
+  #add-btn:hover {
+    background-color: #45a049;
+  }
+  
+  /* Style the checkbox to appear as a circle */
+  input[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  /* Change the appearance of the checkbox when checked */
+  input[type="checkbox"]:checked {
+    background-color: #4caf50;
+    border-color: #4caf50;
+  }
+  
